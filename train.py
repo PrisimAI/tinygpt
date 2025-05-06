@@ -15,7 +15,7 @@ model = TinyGPT(vocab_size, embed_dim=embed_dim, block_size=block_size)
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
 # Training loop
-epochs = 20000  # Adjust the number of epochs
+epochs = 10000  # Adjust the number of epochs
 batch_size = 32
 seq_length = 128  # Adjust sequence length
 
